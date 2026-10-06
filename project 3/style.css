@@ -75,7 +75,7 @@ section {
     display: flex;
     align-items: flex-start;
     background:
-        url("1.png");
+        url("images/1.png");
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@ section {
 
 .space-section {
 	min-height: 510px;
-    background:url("2.png");
+    background:url("images/2.png");
     background-size: 100% auto;
     background-position: center 36%;
     background-repeat: no-repeat;
@@ -227,7 +227,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:url("3.png");
+    background:url("images/3.png");
     background-size: 100% auto;
     background-position: center bottom;
     background-repeat: no-repeat;
