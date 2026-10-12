@@ -36,4 +36,8 @@ function changeContent(data) {
     });
 }
 
-document.getElementById("changeThemeBtn").addEventListener("click", getData);
+//document.getElementById("changeThemeBtn").addEventListener("click", getData);
+document.getElementById("changeThemeBtn").addEventListener("click", function() {
+    console.log("Button clicked!");
+    getData();
+});
