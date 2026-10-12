@@ -1,3 +1,4 @@
+console.log("JavaScript file loaded!");
 function getData() {
     fetch("boardingData.json")
         .then(response => response.json())
