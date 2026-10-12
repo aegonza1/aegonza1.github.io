@@ -1,6 +1,6 @@
-console.log("JavaScript file loaded!");
+
 function getData() {
-    fetch("boardingData.json")
+    fetch("js/boardingData.json")
         .then(response => response.json())
         .then(data => changeContent(data));
 }
@@ -37,8 +37,5 @@ function changeContent(data) {
     });
 }
 
-//document.getElementById("changeThemeBtn").addEventListener("click", getData);
-document.getElementById("changeThemeBtn").addEventListener("click", function() {
-    console.log("Button clicked!");
-    getData();
-});
+document.getElementById("changeThemeBtn").addEventListener("click", getData);
+
