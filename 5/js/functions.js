@@ -1,5 +1,5 @@
 function getData() {
-    fetch("data.json")
+    fetch("boardingData.json")
         .then(response => response.json())
         .then(data => changeContent(data));
 }
