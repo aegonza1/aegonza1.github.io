@@ -1,0 +1,274 @@
+{
+  "categories": [
+    {
+      "name": "Stars",
+      "description": "Explore different types of stars and stellar objects.",
+      "items": [
+        {
+          "name": "Supernova",
+          "image": "images/kepler3.jpg",
+          "alt": "Supernova",
+          "description": "Supernovae are stars that blow up at the end of their life. They are one of the brightest space objects and are colorful due to all the different gases that the stars are composed of."
+		  "options": [
+	{
+      "name": "Tycho's Supernova",
+      "image": "images/Tycho.jpg",
+      "alt": "Tycho's Supernova remnant",
+      "description": "Tycho's blast carried as much energy as the sun over 10 billion years. This explosion was discovered 450 years ago."
+    },
+    {
+      "name": "Kepler's Supernova",
+      "image": "images/kepler3.jpg",
+      "alt": "Kepler's Supernova remnant",
+      "description": "This supernova was discovered in 1604. It was caused due to the explosion of a white dwarf which makes it a type la supernova."
+    },
+    {
+      "name": "Crab Nebula",
+      "image": "images/crab nebula.jpg",
+      "alt": "Crab Nebula",
+      "description": "Messier 1 or you may know it as Crab Nebula, was confused by scientist with Halley's Comet. It is located in the constellation Taurus."
+    },
+    {
+      "name": "3C 58",
+      "image": "images/3C58.jpg",
+      "alt": "3C 58 supernova remnant",
+      "description": "This supernova has a neutron star inside which allows scientists to gather more data on dense materials of the universe."
+    }
+  ]
+	   },
+        {
+          "name": "Nebula",
+          "image": "images/Crab Nebula.jpg",
+          "alt": "Nebula",
+          "description": "Nebulae are important stages of a star's life. It can be marked as the beginning and the end of a star's life. Some are considered nurseries due to the creation of stars. In others they are remanants from a star's explosion."
+		  "options": [
+	{
+      "name": "Eagle Nebula",
+      "image": "images/Eagle.jpg",
+      "alt": "Eagle Nebula",
+      "description": "It is often refered to the pillars of creation and was discvoered in 1745. It is roughly 4 light years tall."
+    },
+    {
+      "name": "Omega Nebula",
+      "image": "images/Omega Nebula.jpg",
+      "alt": "Omega Nebula",
+      "description": "This nebula is loacted in the Sagittarius constellation. It is one of the largest nebulas in the milky way."
+    },
+    {
+      "name": "Trifid Nebula",
+      "image": "images/Trifid.jpg",
+      "alt": "Trifid Nebula",
+      "description": "This is described a an eerie nebula due to its wing like structure. It is also loacted in the sagittarius constellation."
+    },
+    {
+      "name": "Lagoon Nebula",
+      "image": "images/lagoon.jpg",
+      "alt": "Lagoon Nebula",
+      "description": "This is an emission type of nebula. It can be easily seen with binoculars due to its brightness."
+    }
+  ]
+        },
+        {
+          "name": "Black Holes",
+          "image": "images/black1.jpg",
+          "alt": "Black hole",
+          "description": "A black hole is a region of space with gravity so strong that nothing, not even light, can escape from within its event horizon."
+          "options": [
+	{
+      "name": "Cygnus X-1",
+      "image": "images/black1.jpg",
+      "alt": "Cygnus X-1",
+      "description": "Cygnus X-1 was the first black hole discovered. It is more pointed towards earth than researchers had originally thought."
+    },
+    {
+      "name": "Sagittarius A",
+      "image": "images/black2.jpg",
+      "alt": "Sagittarius A",
+      "description": "This black hole is categorized as a supermassive black hole. It is located in the center of the Milky Way."
+    },
+    {
+      "name": "M87",
+      "image": "images/black3.jpg",
+      "alt": "M87",
+      "description": "This space object is considered an elliptical galaxy with a black hole located in the middle. It is located in the Virgo constellation."
+    },
+    {
+      "name": "Gaia BH1",
+      "image": "images/black4.jpg",
+      "alt": "Gaia BH1",
+      "description": "This is the closest black hole to Earth. There is also a planet named Gaia-1 b."
+    }
+  ]
+		},
+		{
+          "name": "Neutron Stars",
+          "image": "images/neutron1.jpg",
+          "alt": "Neutron Stars",
+          "description": "They can spin really fast and emit flashes of light. This can be seen as pulses at night so it may look as if the star is flickering. </br>They are also known to have the strongest electromagnetic fields making them strong magnets!"
+          "options": [
+	{
+      "name": "Vela Pulsar",
+      "image": "images/neutron1.jpg",
+      "alt": "Vela Pulsar",
+      "description": "This pulsar does about 11 rotations every second and is almost 1,000 years away from Earth."
+    },
+    {
+      "name": "Geminga",
+      "image": "images/neutron2.jpg",
+      "alt": "Geminga",
+      "description": "Geminga is one of the brightest pulsars and it is in the constellation Gemini."
+    },
+    {
+      "name": "Rx J1856.5-3754",
+      "image": "images/neutron3.jpg",
+      "alt": "Rx J1856.5-3754",
+      "description": "This is the nearest neutron star to earth. It is about 200 light years away."
+    },
+    {
+      "name": "PSR J0740+6620",
+      "image": "images/neutron4.jpg",
+      "alt": "PSR J0740+6620",
+      "description": "This is the biggest neutron star, and it rotatoes 346 times in a second."
+    }
+  ]
+        }
+      ]
+    },
+    {
+      "name": "Planets",
+      "description": "Discover the planets in our solar system.",
+      "items": [
+        {
+          "name": "terrestrial",
+          "image": "images/terrestrial.png",
+          "alt": "terrestrial",
+          "description": "Terrestrial planets are considered any planet to be rocky. They can also be considered smaller planets outside of the solar system that are rocky. They have to be half of Earth's radius to be considered terrestrial."
+          "options": [
+    {
+      "name": "Earth",
+      "image": "images/earth.png",
+      "alt": "Earth",
+      "description": "Earth is the only planet not named after a Greek or Roman god. The name roots from a Germanic word that means 'the ground'."
+    },
+    {
+      "name": "Mars",
+      "image": "images/mars.png",
+      "alt": "Mars",
+      "description": "Mars is known to be red due to the dirt oxidized, so some call it 'Red Planet'. Research is still being done to discover life that once existed on it."
+    },
+    {
+      "name": "Venus",
+      "image": "images/venus.png",
+      "alt": "Venus",
+      "description": "Venus is the hottest planet in our solar system. It is named after the goddess of love and beauty which makes it the only planet named after a female god."
+    },
+    {
+      "name": "Mercury",
+      "image": "images/mercury.png",
+      "alt": "Mercury",
+      "description": "Mercury is a terrestrial Planet in our solar system. It is the closest to the sun and it very small. It is a bit bigger than our moon."
+    }
+  ]
+		},
+        {
+          "name": "Super-Earth",
+          "image": "images/superPlanets.png",
+          "alt": "Super-Earth",
+          "description": "These are planets that are larger than Earth. Some Exoplanets can be considered Super Earths.They can range from rocky to being covered in lava."
+          "options": [
+	{
+      "name": "LHS 1140b",
+      "image": "images/LHS.jpg",
+      "alt": "LHS 1140b",
+      "description": "It is known to be larger than Earth, and can be a rocky world. It was discvoered in 2017."
+    },
+    {
+      "name": "TOI-715b",
+      "image": "images/TO.jpg",
+      "alt": "TOI-715b",
+      "description": "This super earth planet was discovered in 2023. It's orbit is 19.3 days. This one is also considered a rocky planet."
+    },
+    {
+      "name": "Kepler-452b",
+      "image": "images/kepler1.jpg",
+      "alt": "Kepler-452b",
+      "description": "It is hypothesized that water may exist on this planet. It is also referred to as 'Earth-cousin'."
+    },
+    {
+      "name": "Kepler-22b",
+      "image": "images/kepler2.jpg",
+      "alt": "Kepler-22b",
+      "description": "Scientists refer to this one as a possible ocean world. If liquid water existed then it carries one of the important traits for life."
+    }
+  ]
+	   }
+		,
+        {
+          "name": "Gas Giants",
+          "image": "images/gasGiants.png",
+          "alt": "Gas Giants",
+          "description": "A gas giant is pretty self explanatory given they are giant planets made of gas. They don't have hard surfaces only a solid core."
+          "options": [
+	{
+      "name": "Jupiter",
+      "image": "images/jupiter.jpg",
+      "alt": "Jupiter",
+      "description": "Jupiter has the shortest day span. It is also considered the largest planet in our solar system. The entire day is 9.9 hours."
+    },
+    {
+      "name": "Saturn",
+      "image": "images/saturn.jpg",
+      "alt": "Saturn",
+      "description": "Saturn is the second-largest planet in our solar system. It is the farthest planet that was discovered without the need of telescopes."
+    },
+    {
+      "name": "Uranus",
+      "image": "images/uranus.jpg",
+      "alt": "Uranus",
+      "description": "Uranus spins sideways, and a day takes about 17 hours. It was the first planet to be found with a telescope."
+    },
+    {
+      "name": "Neptune",
+      "image": "images/neptune.jpg",
+      "alt": "Neptune",
+      "description": "Neptune is known to have 16 moons. It also has atleast five rings."
+    }
+  ]
+		}
+		,
+        {
+          "name": "Exo Planets",
+          "image": "images/exoPlanets.png",
+          "alt": "Exo Planets",
+          "description": "These planets are any that are outside of our galaxy. They orbit their own stars, but the ones that are stand alone are called rogue planets."
+          "options": [
+	{
+      "name": "K2-18b",
+      "image": "images/k2.png",
+      "alt": "K2-18b",
+      "description": "k2-18b is 124 light years away from earth. It takes 32.9 days to complete its orbit."
+    },
+    {
+      "name": "55 cancri exo",
+      "image": "images/cancri.jpeg",
+      "alt": "55 cancri exo",
+      "description": "This planet is known as a lava world. Its discovery date is 2004."
+    },
+    {
+      "name": "HD 209458b",
+      "image": "images/HD.jpg",
+      "alt": "HD 209458b",
+      "description": "This exo planet is made of mainly gas. Eventhough it is a big planet, it takes 3.5 days to complete its orbit instead of 365 days like Earth."
+    },
+    {
+      "name": "trappist-1e",
+      "image": "images/trappist.jpg",
+      "alt": "trappist-1e",
+      "description": "Trappist-1e is a terrestrial exoplanet that is 41 light years away from us. It takes 6.1 days for it to orbit around its star."
+    }
+  ]
+		}
+      ]
+    }
+  ]
+}
