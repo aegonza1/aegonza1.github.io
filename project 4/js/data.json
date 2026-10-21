@@ -8,13 +8,13 @@
           "name": "Supernova",
           "image": "images/kepler3.jpg",
           "alt": "Supernova",
-          "description": "Supernovae are stars that blow up at the end of their life. They are one of the brightest space objects and are colorful due to all the different gases that the stars are composed of."
+          "description": "Supernovae are stars that blow up at the end of their life. They are one of the brightest space objects and are colorful due to all the different gases that the stars are composed of.",
 		  "options": [
 	{
       "name": "Tycho's Supernova",
       "image": "images/Tycho.jpg",
       "alt": "Tycho's Supernova remnant",
-      "description": "Tycho's blast carried as much energy as the sun over 10 billion years. This explosion was discovered 450 years ago."
+      "description": "Tycho's blast carried as much energy as the sun over 10 billion years. This explosion was discovered 450 years ago.",
     },
     {
       "name": "Kepler's Supernova",
@@ -40,7 +40,7 @@
           "name": "Nebula",
           "image": "images/Crab Nebula.jpg",
           "alt": "Nebula",
-          "description": "Nebulae are important stages of a star's life. It can be marked as the beginning and the end of a star's life. Some are considered nurseries due to the creation of stars. In others they are remanants from a star's explosion."
+          "description": "Nebulae are important stages of a star's life. It can be marked as the beginning and the end of a star's life. Some are considered nurseries due to the creation of stars. In others they are remanants from a star's explosion.",
 		  "options": [
 	{
       "name": "Eagle Nebula",
@@ -72,7 +72,7 @@
           "name": "Black Holes",
           "image": "images/black1.jpg",
           "alt": "Black hole",
-          "description": "A black hole is a region of space with gravity so strong that nothing, not even light, can escape from within its event horizon."
+          "description": "A black hole is a region of space with gravity so strong that nothing, not even light, can escape from within its event horizon.",
           "options": [
 	{
       "name": "Cygnus X-1",
@@ -104,7 +104,7 @@
           "name": "Neutron Stars",
           "image": "images/neutron1.jpg",
           "alt": "Neutron Stars",
-          "description": "They can spin really fast and emit flashes of light. This can be seen as pulses at night so it may look as if the star is flickering. </br>They are also known to have the strongest electromagnetic fields making them strong magnets!"
+          "description": "They can spin really fast and emit flashes of light. This can be seen as pulses at night so it may look as if the star is flickering. They are also known to have the strongest electromagnetic fields making them strong magnets!",
           "options": [
 	{
       "name": "Vela Pulsar",
@@ -142,7 +142,7 @@
           "name": "terrestrial",
           "image": "images/terrestrial.png",
           "alt": "terrestrial",
-          "description": "Terrestrial planets are considered any planet to be rocky. They can also be considered smaller planets outside of the solar system that are rocky. They have to be half of Earth's radius to be considered terrestrial."
+          "description": "Terrestrial planets are considered any planet to be rocky. They can also be considered smaller planets outside of the solar system that are rocky. They have to be half of Earth's radius to be considered terrestrial.",
           "options": [
     {
       "name": "Earth",
@@ -174,7 +174,7 @@
           "name": "Super-Earth",
           "image": "images/superPlanets.png",
           "alt": "Super-Earth",
-          "description": "These are planets that are larger than Earth. Some Exoplanets can be considered Super Earths.They can range from rocky to being covered in lava."
+          "description": "These are planets that are larger than Earth. Some Exoplanets can be considered Super Earths.They can range from rocky to being covered in lava.",
           "options": [
 	{
       "name": "LHS 1140b",
@@ -207,7 +207,7 @@
           "name": "Gas Giants",
           "image": "images/gasGiants.png",
           "alt": "Gas Giants",
-          "description": "A gas giant is pretty self explanatory given they are giant planets made of gas. They don't have hard surfaces only a solid core."
+          "description": "A gas giant is pretty self explanatory given they are giant planets made of gas. They don't have hard surfaces only a solid core.",
           "options": [
 	{
       "name": "Jupiter",
@@ -240,7 +240,7 @@
           "name": "Exo Planets",
           "image": "images/exoPlanets.png",
           "alt": "Exo Planets",
-          "description": "These planets are any that are outside of our galaxy. They orbit their own stars, but the ones that are stand alone are called rogue planets."
+          "description": "These planets are any that are outside of our galaxy. They orbit their own stars, but the ones that are stand alone are called rogue planets.",
           "options": [
 	{
       "name": "K2-18b",
