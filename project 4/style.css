@@ -195,6 +195,7 @@ button.fact {
     border: none;
     cursor: pointer;
     padding: 0;
+	border-radius: 10px;
 }
 
 button.fact img {
@@ -208,10 +209,11 @@ button.fact img {
 
 button.fact p {
     padding: 0 5px 8px;
+	font-family: Arial, sans-serif;
 }
 
 button.fact:focus-visible {
-    outline: 3px solid white;
+    outline: 3px powderblue;
     outline-offset: 3px;
 }
 .interactive-section {
@@ -255,6 +257,15 @@ button.fact:focus-visible {
 .interactive-section #details p {
     margin: 15px 0;
     line-height: 1.6;
+}
+
+.interactive-section #details .detail-image {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
 }
 
 @media (max-width: 550px) {
