@@ -221,6 +221,29 @@ button.fact:focus-visible {
     outline: 3px solid powderblue;
     outline-offset: 3px;
 }
+
+button.back-button {
+    background-color: #243b64;
+    color: white;
+    border: 2px solid powderblue;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.back-button:hover {
+    background-color: powderblue;
+    color: black;
+    transform: translateY(-2px);
+}
+
+button.back-button:focus-visible {
+    outline: 3px solid white;
+    outline-offset: 3px;
+}
 .interactive-section {
     display: block;
     min-height: 520px;
