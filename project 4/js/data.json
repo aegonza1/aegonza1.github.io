@@ -38,7 +38,7 @@
 	   },
         {
           "name": "Nebula",
-          "image": "images/Crab Nebula.jpg",
+          "image": "images/crab nebula.jpg",
           "alt": "Nebula",
           "description": "Nebulae are important stages of a star's life. It can be marked as the beginning and the end of a star's life. Some are considered nurseries due to the creation of stars. In others they are remanants from a star's explosion.",
 		  "options": [
@@ -146,25 +146,25 @@
           "options": [
     {
       "name": "Earth",
-      "image": "images/earth.png",
+      "image": "images/earth.jpg",
       "alt": "Earth",
       "description": "Earth is the only planet not named after a Greek or Roman god. The name roots from a Germanic word that means 'the ground'."
     },
     {
       "name": "Mars",
-      "image": "images/mars.png",
+      "image": "images/mars.jpg",
       "alt": "Mars",
       "description": "Mars is known to be red due to the dirt oxidized, so some call it 'Red Planet'. Research is still being done to discover life that once existed on it."
     },
     {
       "name": "Venus",
-      "image": "images/venus.png",
+      "image": "images/venus.jpg",
       "alt": "Venus",
       "description": "Venus is the hottest planet in our solar system. It is named after the goddess of love and beauty which makes it the only planet named after a female god."
     },
     {
       "name": "Mercury",
-      "image": "images/mercury.png",
+      "image": "images/mercury.jpg",
       "alt": "Mercury",
       "description": "Mercury is a terrestrial Planet in our solar system. It is the closest to the sun and it very small. It is a bit bigger than our moon."
     }
@@ -211,7 +211,7 @@
           "options": [
 	{
       "name": "Jupiter",
-      "image": "images/jupiter.jpg",
+      "image": "images/jupiter.png",
       "alt": "Jupiter",
       "description": "Jupiter has the shortest day span. It is also considered the largest planet in our solar system. The entire day is 9.9 hours."
     },
