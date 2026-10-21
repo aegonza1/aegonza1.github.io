@@ -2,6 +2,8 @@
   "categories": [
     {
       "name": "Stars",
+	  "image": "images/stars.png",
+      "alt": "A star shining in space",
       "description": "Explore different types of stars and stellar objects.",
       "items": [
         {
@@ -136,6 +138,8 @@
     },
     {
       "name": "Planets",
+	  "image": "images/planet.png",
+      "alt": "Planets in our solar system",
       "description": "Discover the planets in our solar system.",
       "items": [
         {
