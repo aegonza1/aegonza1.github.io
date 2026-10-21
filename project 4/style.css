@@ -196,6 +196,7 @@ button.fact {
     cursor: pointer;
     padding: 0;
 	border-radius: 10px;
+	background-color: powederblue;
 }
 
 button.fact img {
@@ -212,8 +213,12 @@ button.fact p {
 	font-family: Arial, sans-serif;
 }
 
+button.fact:hover {
+    background-color: #addde6;
+}
+
 button.fact:focus-visible {
-    outline: 3px powderblue;
+    outline: 3px solid powderblue;
     outline-offset: 3px;
 }
 .interactive-section {
