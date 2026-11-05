@@ -152,30 +152,23 @@ logoutButton.addEventListener("click", async function () {
 });
 
 // Check login status
-onAuthStateChanged(auth, function (user) {
-
+onAuthStateChanged(auth, (user) => {
     if (user) {
-
-        message.textContent = "Logged in as " + user.email;
-
+        // User is logged in
         loginForm.hidden = true;
         signupForm.hidden = true;
-        switchText.hidden = true;
-
-        formTitle.textContent = "Welcome to Astronomy Adventure!";
+        googleButton.hidden = true; // ADD IT HERE
 
         logoutButton.hidden = false;
-
+        message.textContent = "You are logged in!";
     } else {
-
+        // User is logged out
         loginForm.hidden = false;
         signupForm.hidden = true;
-        switchText.hidden = false;
+        googleButton.hidden = false; // Show Google button again
 
         logoutButton.hidden = true;
-
     }
-
 });
 
 googleButton.addEventListener("click", async function () {
