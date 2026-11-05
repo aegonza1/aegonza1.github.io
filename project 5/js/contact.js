@@ -1,3 +1,4 @@
+
 import { db } from "./firebase.js";
 
 import {
@@ -6,50 +7,62 @@ import {
     serverTimestamp
 } from "https://www.gstatic.com/firebasejs/13.2.0/firebase-firestore.js";
 
-// Get the form elements
-const contactForm = document.getElementById("contact-form");
-const nameInput = document.getElementById("contact-name");
-const emailInput = document.getElementById("contact-email");
-const messageInput = document.getElementById("contact-text");
-const statusMessage = document.getElementById("contact-status");
+// Get your existing form elements
+const contactForm = document.getElementById("signupForm");
+const nameInput = document.getElementById("name");
+const emailInput = document.getElementById("email");
+const questionsInput = document.getElementById("questions");
+
+// Create a status message
+const statusMessage = document.createElement("p");
+statusMessage.id = "contact-status";
+statusMessage.setAttribute("role", "status");
+statusMessage.setAttribute("aria-live", "polite");
+contactForm.appendChild(statusMessage);
+
 const submitButton = contactForm.querySelector('button[type="submit"]');
 
 // Submit contact form
 contactForm.addEventListener("submit", async (event) => {
     event.preventDefault();
 
-    // Get information entered by the visitor
     const name = nameInput.value.trim();
     const email = emailInput.value.trim();
-    const message = messageInput.value.trim();
+    const questions = questionsInput.value.trim();
 
-    // Show loading feedback
+    // Check that all fields have information
+    if (!name || !email || !questions) {
+        statusMessage.textContent = "Please complete all fields.";
+        return;
+    }
+
+    // Show loading message
     submitButton.disabled = true;
-    submitButton.textContent = "Sending...";
-    statusMessage.textContent = "Submitting your message...";
+    submitButton.textContent = "Submitting...";
+    statusMessage.textContent = "Sending your message...";
 
     try {
-        // Upload information to Firestore
+        // Save contact information to Firebase
         await addDoc(collection(db, "contactMessages"), {
             name: name,
             email: email,
-            message: message,
+            questions: questions,
             submittedAt: serverTimestamp()
         });
 
-        // Show success message
-        statusMessage.textContent = "Thank you! Your message was sent successfully.";
+        statusMessage.textContent =
+            "Thank you! Your message has been submitted successfully.";
 
-        // Clear the form
         contactForm.reset();
 
     } catch (error) {
         console.error("Error submitting contact form:", error);
+
         statusMessage.textContent =
-            "Sorry, your message could not be sent. Please try again.";
+            "Something went wrong. Please try again.";
 
     } finally {
         submitButton.disabled = false;
-        submitButton.textContent = "Send Message";
+        submitButton.textContent = "Submit";
     }
 });
