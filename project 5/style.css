@@ -670,4 +670,71 @@ button.back-button:focus-visible {
 }
 
 
+.login-container {
+    width: 90%;
+    max-width: 420px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #151515;
+    border-radius: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.login-container h1 {
+    color: powderblue;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin: 15px 0 5px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid powderblue;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.login-container button {
+    margin-top: 18px;
+    padding: 12px 20px;
+    background-color: powderblue;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-container button:hover {
+    background-color: #a5d5df;
+}
+
+.login-container button:focus-visible {
+    outline: 3px solid white;
+    outline-offset: 3px;
+}
+
+#auth-message {
+    margin: 15px 0;
+    color: powderblue;
+    overflow-wrap: anywhere;
+}
+
+.login-container [hidden] {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        margin: 25px auto;
+        padding: 20px;
+    }
+}
+
 
