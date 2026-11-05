@@ -22,60 +22,35 @@ const message = document.getElementById("auth-message");
 const logoutButton = document.getElementById("logout-button");
 
 // Switch between login and signup
-showSignup.addEventListener("click", function () {
 
-    const showingSignup = !signupForm.hidden;
+let isSignup = false;
 
-    loginForm.hidden = showingSignup;
-    signupForm.hidden = !showingSignup;
+switchText.addEventListener("click", function (event) {
 
-    formTitle.textContent = showingSignup
-        ? "Login to Your Account"
-        : "Create Your Account";
+    if (event.target.id !== "show-signup") {
+        return;
+    }
 
-    formDescription.textContent = showingSignup
-        ? "Welcome back! Enter your email and password."
-        : "Join Astronomy Adventure by creating an account.";
+    isSignup = !isSignup;
 
-    switchText.innerHTML = showingSignup
-        ? 'Don\'t have an account? <button type="button" id="show-signup">Sign Up</button>'
-        : 'Already have an account? <button type="button" id="show-signup">Log In</button>';
+    loginForm.hidden = isSignup;
+    signupForm.hidden = !isSignup;
 
-    // Reconnect the switching button
-    const newSwitch = document.getElementById("show-signup");
+    formTitle.textContent = isSignup
+        ? "Create Your Account"
+        : "Login to Your Account";
 
-    newSwitch.addEventListener("click", function () {
-        toggleForms();
-    });
+    formDescription.textContent = isSignup
+        ? "Join Astronomy Adventure by creating an account."
+        : "Welcome back! Enter your email and password.";
+
+    switchText.innerHTML = isSignup
+        ? 'Already have an account? <button type="button" id="show-signup">Log In</button>'
+        : 'Don\'t have an account? <button type="button" id="show-signup">Sign Up</button>';
 
     message.textContent = "";
 });
 
-// Switch forms
-function toggleForms() {
-
-    const showingSignup = !signupForm.hidden;
-
-    loginForm.hidden = showingSignup;
-    signupForm.hidden = !showingSignup;
-
-    formTitle.textContent = showingSignup
-        ? "Login to Your Account"
-        : "Create Your Account";
-
-    formDescription.textContent = showingSignup
-        ? "Welcome back! Enter your email and password."
-        : "Join Astronomy Adventure by creating an account.";
-
-    switchText.innerHTML = showingSignup
-        ? 'Don\'t have an account? <button type="button" id="show-signup">Sign Up</button>'
-        : 'Already have an account? <button type="button" id="show-signup">Log In</button>';
-
-    message.textContent = "";
-
-    document.getElementById("show-signup")
-        .addEventListener("click", toggleForms);
-}
 
 // Display loading and feedback
 function setLoading(button, loading) {
