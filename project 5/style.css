@@ -738,3 +738,25 @@ button.back-button:focus-visible {
 }
 
 
+#google-login-button {
+    width: 100%;
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#google-login-button:hover {
+    background-color: #eeeeee;
+}
+
+.google-divider {
+    margin: 20px 0;
+    color: white;
+}
+
+
+
