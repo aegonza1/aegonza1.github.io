@@ -25,6 +25,10 @@ const formDescription = document.getElementById("form-description");
 const message = document.getElementById("auth-message");
 const logoutButton = document.getElementById("logout-button");
 
+const googleButton = document.getElementById("google-login-button");
+
+const googleProvider = new GoogleAuthProvider();
+
 // Switch between login and signup
 
 let isSignup = false;
@@ -169,6 +173,35 @@ onAuthStateChanged(auth, function (user) {
         switchText.hidden = false;
 
         logoutButton.hidden = true;
+
+    }
+
+});
+
+googleButton.addEventListener("click", async function () {
+
+    googleButton.disabled = true;
+    googleButton.textContent = "Connecting to Google...";
+
+    message.textContent = "Signing in with Google...";
+
+    try {
+
+        await signInWithPopup(auth, googleProvider);
+
+        message.textContent =
+            "You successfully signed in with Google!";
+
+    } catch (error) {
+
+        message.textContent = error.message;
+
+        console.error("Google login error:", error);
+
+    } finally {
+
+        googleButton.disabled = false;
+        googleButton.textContent = "Continue with Google";
 
     }
 
