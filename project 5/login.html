@@ -1,1 +1,100 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | Astronomy Adventure</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <script type="module" src="JS/auth.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="twoStep.html">Explore Universe</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="login-container">
+
+        <h1>Astronomy Adventure</h1>
+        <h2 id="form-title">Login to Your Account</h2>
+
+        <p id="form-description">
+            Welcome back! Enter your email and password.
+        </p>
+
+        <div id="auth-message" role="status" aria-live="polite"></div>
+
+        <form id="login-form">
+
+            <label for="login-email">Email Address</label>
+            <input
+                type="email"
+                id="login-email"
+                required
+                autocomplete="email"
+            >
+
+            <label for="login-password">Password</label>
+            <input
+                type="password"
+                id="login-password"
+                required
+                autocomplete="current-password"
+            >
+
+            <button type="submit" id="login-button">
+                Log In
+            </button>
+
+        </form>
+
+        <form id="signup-form" hidden>
+
+            <label for="signup-email">Email Address</label>
+            <input
+                type="email"
+                id="signup-email"
+                required
+                autocomplete="email"
+            >
+
+            <label for="signup-password">Create Password</label>
+            <input
+                type="password"
+                id="signup-password"
+                minlength="6"
+                required
+                autocomplete="new-password"
+            >
+
+            <button type="submit" id="signup-button">
+                Create Account
+            </button>
+
+        </form>
+
+        <p id="switch-text">
+            Don't have an account?
+            <button type="button" id="show-signup">
+                Sign Up
+            </button>
+        </p>
+
+        <button type="button" id="logout-button" hidden>
+            Log Out
+        </button>
+
+    </main>
+
+</body>
+</html>
+
