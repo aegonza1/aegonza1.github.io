@@ -9,7 +9,7 @@ import { getFirestore } from
 "https://www.gstatic.com/firebasejs/13.2.0/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
+    apiKey: "AIzaSyAY-PNn6h029mm1tGdisd9-nfrDTlSP79o",
     authDomain: "webprogramming-ab2d5.firebaseapp.com",
     projectId: "webprogramming-ab2d5",
     storageBucket: "webprogramming-ab2d5.firebasestorage.app",
